@@ -32,13 +32,15 @@ return {
       })
     end,
     keys = {
-      { "<leader>ff", "<cmd>FzfLua files<cr>", desc = "Find Files (fzf)" },
-      { "<leader>fg", "<cmd>FzfLua live_grep<cr>", desc = "Live Grep (fzf)" },
-      { "<leader>fb", "<cmd>FzfLua buffers<cr>", desc = "Buffers (fzf)" },
-      { "<leader>fh", "<cmd>FzfLua help_tags<cr>", desc = "Help Tags (fzf)" },
-      { "<leader>fr", "<cmd>FzfLua oldfiles<cr>", desc = "Recent Files (fzf)" },
-      { "<leader>fc", "<cmd>FzfLua commands<cr>", desc = "Commands (fzf)" },
-      { "<leader>fk", "<cmd>FzfLua keymaps<cr>", desc = "Keymaps (fzf)" },
+      { "<leader>zf", "<cmd>FzfLua files<cr>", desc = "Find Files (fzf)" },
+      { "<leader>zg", "<cmd>FzfLua live_grep<cr>", desc = "Live Grep (fzf)" },
+      { "<leader>zb", "<cmd>FzfLua buffers<cr>", desc = "Buffers (fzf)" },
+      { "<leader>zh", "<cmd>FzfLua help_tags<cr>", desc = "Help Tags (fzf)" },
+      { "<leader>zr", "<cmd>FzfLua oldfiles<cr>", desc = "Recent Files (fzf)" },
+      { "<leader>zc", "<cmd>FzfLua commands<cr>", desc = "Commands (fzf)" },
+      { "<leader>zk", "<cmd>FzfLua keymaps<cr>", desc = "Keymaps (fzf)" },
+      { "<leader>zs", "<cmd>FzfLua lsp_document_symbols<cr>", desc = "Document Symbols (fzf)" },
+      { "<leader>zw", "<cmd>FzfLua lsp_workspace_symbols<cr>", desc = "Workspace Symbols (fzf)" },
     },
   },
 }
