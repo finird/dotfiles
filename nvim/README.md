@@ -6,11 +6,11 @@ A comprehensive LazyVim configuration with enhanced language support, debugging,
 
 This configuration includes comprehensive support for:
 
-- **JavaScript/TypeScript** - ESLint, Prettier, TypeScript LSP, Node.js debugging
-- **Go** - gopls, goimports, gofumpt, golangci-lint, delve debugger
+- **JavaScript/TypeScript** - ESLint, Prettier, TypeScript LSP
+- **Go** - gopls, goimports, gofumpt, golangci-lint
 - **PHP** - Intelephense LSP, php-cs-fixer, phpstan static analysis
-- **Python** - Pyright, Black formatter, isort, flake8, mypy, debugpy debugger
-- **C/C++** - clangd LSP, clang-format, codelldb debugger
+- **Python** - Pyright, Black formatter, isort, flake8, mypy
+- **C/C++** - clangd LSP, clang-format
 
 ## Key Features
 
@@ -33,18 +33,6 @@ This configuration includes comprehensive support for:
   - `<leader>gg` - Open LazyGit
   - `<leader>gf` - LazyGit file history filter
   - `<leader>gc` - LazyGit current file
-
-### 🐛 Debugging Support
-- **Full DAP (Debug Adapter Protocol)** setup for all languages
-- Use `<leader>d` prefix for debugging:
-  - `<leader>db` - Toggle breakpoint
-  - `<leader>dc` - Continue execution
-  - `<leader>di` - Step into
-  - `<leader>do` - Step over
-  - `<leader>dO` - Step out
-  - `<leader>dr` - Toggle REPL
-  - `<leader>dl` - Run last configuration
-  - `<leader>du` - Toggle DAP UI
 
 ## Installation
 
@@ -76,7 +64,6 @@ nvim/
 │   └── plugins/         # Custom plugin configurations
 │       ├── colorscheme.lua      # Catppuccin theme
 │       ├── copilotchat.lua      # GitHub Copilot Chat
-│       ├── debugging.lua        # DAP debugging setup
 │       ├── fzf.lua             # fzf-lua integration
 │       ├── language-tools.lua   # Enhanced language tools
 │       ├── lazygit.lua         # lazygit integration
