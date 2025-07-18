@@ -1,0 +1,13 @@
+# Ignore system/user state and secrets
+dconf/
+pulse/
+gtk-3.0/
+gh/
+gh-copilot/
+github-copilot/
+imsettings/
+ibus/
+procps/
+user-dirs.*
+xfce4/
+mpv/
